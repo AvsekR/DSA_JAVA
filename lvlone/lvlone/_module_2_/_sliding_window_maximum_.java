@@ -37,10 +37,36 @@ public class _sliding_window_maximum_ {
 //}
 
 
-//  Above is a intuitive/brute-force approach but by using stack the space-time complexity can significantly be
+//  Above is an intuitive/brute-force approach but by using stacks the space-time complexity can significantly be
 //  reduced.
+//  Hint- Check if the farthest next greater element of any element lies in that window or not
 
 
 
+    int[] nge= new int[n];
+    Stack <Integer> st= new Stack<>();
+    st.push(0);
+    for(int i=1;i<arr.length;i++){
+        while(st.size()!=0 && arr[i]>arr[st.peek()]){
+            nge[st.peek()]=i;
+            st.pop();
+        }
+        st.push(i);
+    }
+    while(st.size()!=0){
+        nge[st.peek()]=arr.length;
+        st.pop();
+    }
+    System.out.println("The values at the indexes of desired array are-");
+    int j=0;
+    for(int i=0;i<=arr.length-k;i++){
+        if(j<i){
+            j=i;
+        }
+        while(nge[j]<i+k){
+            j=nge[j];
+        }
+        System.out.print(arr[j]+"\t");
+    }
     }
 }

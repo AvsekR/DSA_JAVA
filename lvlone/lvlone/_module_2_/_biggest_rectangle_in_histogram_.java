@@ -3,7 +3,7 @@ package _module_2_;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class _Biggest_rectangle_in_histogram_ {
+public class _biggest_rectangle_in_histogram_ {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the size of array-");
