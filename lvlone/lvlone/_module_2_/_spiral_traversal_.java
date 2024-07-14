@@ -4,11 +4,11 @@ import java.util.Scanner;
 public class _spiral_traversal_ {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the no. of rows in array-");
+        System.out.println("Enter the no. of rows in matrix-");
         int m= sc.nextInt();
-        System.out.println("Enter the no. of columns in array-");
+        System.out.println("Enter the no. of columns in matrix-");
         int n= sc.nextInt();
-        System.out.println("Enter the values at indexes of array row-wise - ");
+        System.out.println("Enter the values at indexes of matrix row-wise - ");
         int[][] mtrx= new int[m][n];
         for(int i=0;i<mtrx.length;i++){
             for(int j=0;j<mtrx[0].length;j++){
