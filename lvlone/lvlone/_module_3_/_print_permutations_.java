@@ -1,4 +1,4 @@
-package _module_2_;
+package _module_3_;
 public class _print_permutations_ {
     public static void main(String[] args){
        String str= "abcd";
