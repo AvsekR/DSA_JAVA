@@ -2,7 +2,6 @@ package _module_2_;
 import java.util.Scanner;
 public class _sum_of_two_arrays_ {
     public static void main(String[] args){
-        //madarchoddhairya
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the no. of digits in first array-");
         int n1= sc.nextInt();

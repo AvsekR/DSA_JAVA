@@ -1,4 +1,4 @@
-package _module_2_;
+package _module_3_;
 public class _print_subsets_of_string_ {
     public static void main(String[] args){
         String str= "abc";

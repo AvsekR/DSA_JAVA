@@ -1,4 +1,4 @@
-package _module_2_;
+package _module_3_;
 
 import java.util.*;
 public class _maze_paths_with_jumps_ {

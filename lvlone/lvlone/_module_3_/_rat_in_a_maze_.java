@@ -1,4 +1,4 @@
-package _module_2_;
+package _module_3_;
 public class _rat_in_a_maze_ {
     public static void main(String[] args){
        int r= 6;
