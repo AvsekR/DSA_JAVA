@@ -29,6 +29,10 @@ public class _n_knights_tour_ {
             pCords(board,x+1,y-2,move+1);
             pCords(board,x+2,y-1,move+1);
             board[x][y]=0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     }
     public static void displayBoard(int[][] board){
         for(int i=0;i<board.length;i++){
